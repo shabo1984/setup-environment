@@ -6,10 +6,8 @@ libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
 
 curl https://pyenv.run | bash
 
-cat <<EOT >> ~/.bashrc
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-EOT
+echo "export PATH=\"\$HOME/.pyenv/bin:\$PATH\"" >> ~/.bashrc
+echo "eval \"\$(pyenv init -)\"" >> ~/.bashrc
+echo "eval \"\$(pyenv virtualenv-init -)\"" >> ~/.bashrc
 
 exec "$SHELL"
