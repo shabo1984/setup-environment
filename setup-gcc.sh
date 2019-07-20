@@ -19,3 +19,5 @@ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 10
 
 sudo update-alternatives --config gcc
 sudo update-alternatives --config g++
+
+sudo apt-get install gcc-multilib
