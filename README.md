@@ -27,6 +27,11 @@ $ pyenv local project1
 
 Python 3.6.8
 
-(project1) $ which python
+(project1) $ cd .. 
 
-/home/shabo/.pyenv/shims/python
+//Now you're out of your working environment
+
+$ python -V
+
+Python 2.7
+
