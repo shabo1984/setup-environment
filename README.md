@@ -23,5 +23,10 @@ e.g. $ pyenv virtualenv 3.6.8 project1
 
 $ pyenv local project1
 
-$ python -V
-/home/realpython/.pyenv/versions/project1/bin/python
+(project1) $ python -V
+
+Python 3.6.8
+
+(project1) $ which python
+
+/home/shabo/.pyenv/shims/python
