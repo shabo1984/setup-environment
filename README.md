@@ -11,9 +11,13 @@ $ cd project1/
 $ pyenv which python
 /usr/bin/python
 
-$ pyenv install 3.6.8
+$ pyenv install <prefered_version>
 
-$ pyenv virtualenv 3.6.8 project1
+e.g. $ pyenv install 3.6.8
+
+$ pyenv virtualenv <prefered_version> <project_name>
+
+e.g. $ pyenv virtualenv 3.6.8 project1
 
 ...
 
